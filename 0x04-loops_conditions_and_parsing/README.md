@@ -1,1 +1,1 @@
-This task is about Loops Condition and Parsing
+Loops Condition and Parsing
