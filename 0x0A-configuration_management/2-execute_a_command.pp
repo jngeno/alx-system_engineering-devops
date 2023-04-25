@@ -1,4 +1,6 @@
-exec { 'pkill':
+#executing a command
+exec { 'killmenow':
   command => 'pkill killmenow',
-  returns => [0, 1],
+  onlyif  => 'pgrep killmenow',
 }
+
