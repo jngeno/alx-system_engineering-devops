@@ -1,6 +1,5 @@
 #executing a command
 exec { 'killmenow':
-  command => 'pkill killmenow',
-  onlyif  => 'pgrep killmenow',
+  command => '/usr/bin/pkill killmenow',
+  onlyif  => '/usr/bin/pgrep killmenow',
 }
-
