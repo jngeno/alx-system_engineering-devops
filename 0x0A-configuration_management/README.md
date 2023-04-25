@@ -1,0 +1,1 @@
+Puppet config
